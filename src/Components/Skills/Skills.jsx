@@ -11,8 +11,8 @@ function Skills(props) {
     <div id="skills" >
          Skill
          <div class="skills-card">
-            <img src="" alt="pic" class="skills-card-img"/>
-            <p class="skills-card-name"></p>
+            <img src=" https://cdn-icons-png.flaticon.com/128/174/174854.png" alt="HTML" class="skills-card-img"/>
+            <p class="skills-card-name">HTML</p>
          </div>
          <div class="skills-card">
             <img src="" alt="pic" class="skills-card-img"/>

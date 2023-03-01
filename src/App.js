@@ -1,6 +1,6 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
-import About from './Components/About/About';
+// import About from './Components/About/About';
 import Projects from './Components/Projects/Projects';
 import Skills from './Components/Skills/Skills';
 import Resume from './Components/Resume/Resume';
@@ -12,7 +12,7 @@ function App() {
     <div className="App">
       <Navbar/>
       <Home/>
-      <About/>
+      {/* <About/> */}
       <Contact/>
       <Projects/>
       <Skills/>

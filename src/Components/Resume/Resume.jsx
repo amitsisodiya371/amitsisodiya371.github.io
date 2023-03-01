@@ -1,13 +1,20 @@
-function Resume(props) {
-
-      
+// import "../images/Amit_Resume.pdf";
+import resume from "../Resume_pdf/Amit Sisodiya Resume.pdf"
+function Resume(props) {  
     return (
-    <div id="about" class="about section">
-         <h1>Resume</h1>
-        
-        <button id="resume-button-1" src="">Resume Downlaod</button>
-      </div>
+      <div id="myresume">
+      <h1>Resum</h1>
+    
+      <a href={resume} target='_blank' id="resume-link-1">
+        <button  type="button" >Download Resume</button>
+        </a>
+
+    
+    
+     <br/>
+    </div>
     );
   }
+  
   
   export default Resume;

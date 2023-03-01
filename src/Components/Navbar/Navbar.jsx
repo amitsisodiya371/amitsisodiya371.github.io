@@ -31,10 +31,9 @@ function Navbar(props) {
       Contact
       </a>
 
-      <a style={aStyle} href="#"  class="nav-link resume">
-      Resume
+      <a style={aStyle}  class="nav-link resume"   target='_blank' id="resume-button-1">
+      Resume 
       </a>
-   
       </div>
     );
   }
