@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.3345aaf0.css",
-    "main.js": "/static/js/main.91777718.js",
+    "main.js": "/static/js/main.c20099f6.js",
     "static/js/787.60235f71.chunk.js": "/static/js/787.60235f71.chunk.js",
     "static/media/Amit Sisodiya Resume.pdf": "/static/media/Amit Sisodiya Resume.77409f60db735fb34838.pdf",
     "index.html": "/index.html",
     "main.3345aaf0.css.map": "/static/css/main.3345aaf0.css.map",
-    "main.91777718.js.map": "/static/js/main.91777718.js.map",
+    "main.c20099f6.js.map": "/static/js/main.c20099f6.js.map",
     "787.60235f71.chunk.js.map": "/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3345aaf0.css",
-    "static/js/main.91777718.js"
+    "static/js/main.c20099f6.js"
   ]
 }
