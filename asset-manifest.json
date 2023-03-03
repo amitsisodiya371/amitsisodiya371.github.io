@@ -1,16 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.3345aaf0.css",
-    "main.js": "/static/js/main.c20099f6.js",
+    "main.css": "/static/css/main.774eeb57.css",
+    "main.js": "/static/js/main.bce08ec4.js",
     "static/js/787.60235f71.chunk.js": "/static/js/787.60235f71.chunk.js",
-    "static/media/Amit Sisodiya Resume.pdf": "/static/media/Amit Sisodiya Resume.77409f60db735fb34838.pdf",
+    "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
+    "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
+    "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
+    "static/media/profile pic rotate.jpg": "/static/media/profile pic rotate.8ba50ea1a8ad01b1291d.jpg",
+    "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.3345aaf0.css.map": "/static/css/main.3345aaf0.css.map",
-    "main.c20099f6.js.map": "/static/js/main.c20099f6.js.map",
+    "main.774eeb57.css.map": "/static/css/main.774eeb57.css.map",
+    "main.bce08ec4.js.map": "/static/js/main.bce08ec4.js.map",
     "787.60235f71.chunk.js.map": "/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3345aaf0.css",
-    "static/js/main.c20099f6.js"
+    "static/css/main.774eeb57.css",
+    "static/js/main.bce08ec4.js"
   ]
 }
