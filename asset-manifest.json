@@ -1,13 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.eb648a82.css",
-    "main.js": "/static/js/main.75c9524f.js",
+    "main.css": "/static/css/main.58f630fa.css",
+    "main.js": "/static/js/main.41de32e4.js",
     "static/js/787.60235f71.chunk.js": "/static/js/787.60235f71.chunk.js",
     "static/media/spotify proj.png": "/static/media/spotify proj.88d8d2c96d73b48b7cd2.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/Amit Sisodiya Resume.pdf": "/static/media/Amit Sisodiya Resume.77409f60db735fb34838.pdf",
     "static/media/profile pic rotate.jpg": "/static/media/profile pic rotate.6dc2395cf058e4794f95.jpg",
     "static/media/react.ico": "/static/media/react.95d7da2a9a083faa8c53.ico",
     "static/media/redux.ico": "/static/media/redux.0b337aa9411229496bb6.ico",
@@ -21,12 +20,12 @@
     "static/media/mongodb.ico": "/static/media/mongodb.4273f571ccecac3575d5.ico",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.eb648a82.css.map": "/static/css/main.eb648a82.css.map",
-    "main.75c9524f.js.map": "/static/js/main.75c9524f.js.map",
+    "main.58f630fa.css.map": "/static/css/main.58f630fa.css.map",
+    "main.41de32e4.js.map": "/static/js/main.41de32e4.js.map",
     "787.60235f71.chunk.js.map": "/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb648a82.css",
-    "static/js/main.75c9524f.js"
+    "static/css/main.58f630fa.css",
+    "static/js/main.41de32e4.js"
   ]
 }
