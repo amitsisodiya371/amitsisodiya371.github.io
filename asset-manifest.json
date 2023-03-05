@@ -1,9 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.58f630fa.css",
-    "main.js": "/static/js/main.41de32e4.js",
+    "main.css": "/static/css/main.c3886ab1.css",
+    "main.js": "/static/js/main.db942a95.js",
     "static/js/787.60235f71.chunk.js": "/static/js/787.60235f71.chunk.js",
+    "static/media/food proj.png": "/static/media/food proj.ba8e17e819d21cc677e3.png",
     "static/media/spotify proj.png": "/static/media/spotify proj.88d8d2c96d73b48b7cd2.png",
+    "static/media/blumercary proj.png": "/static/media/blumercary proj.2bbe538cf0f86d43a08a.png",
+    "static/media/Rb proj.png": "/static/media/Rb proj.6e2ef96fda0a6408f8b8.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
@@ -20,12 +23,12 @@
     "static/media/mongodb.ico": "/static/media/mongodb.4273f571ccecac3575d5.ico",
     "static/media/revicons.woff": "/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/index.html",
-    "main.58f630fa.css.map": "/static/css/main.58f630fa.css.map",
-    "main.41de32e4.js.map": "/static/js/main.41de32e4.js.map",
+    "main.c3886ab1.css.map": "/static/css/main.c3886ab1.css.map",
+    "main.db942a95.js.map": "/static/js/main.db942a95.js.map",
     "787.60235f71.chunk.js.map": "/static/js/787.60235f71.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.58f630fa.css",
-    "static/js/main.41de32e4.js"
+    "static/css/main.c3886ab1.css",
+    "static/js/main.db942a95.js"
   ]
 }
