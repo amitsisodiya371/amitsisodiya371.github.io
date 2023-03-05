@@ -1,12 +1,9 @@
 import { useState, useEffect } from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
-// import { Link } from 'react-bootstrap-icons';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaWhatsapp } from 'react-icons/fa';
-import {Link} from "react-router-dom"
-// import resume from '../images/Resume/Amit Sisodiya Resume.pdf';
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
@@ -42,13 +39,8 @@ export const NavBar = () => {
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
-
-                {/* <Navbar.Brand href="/home"> */}
                     <Nav.Link href='#home'>Amit Sisodiya</Nav.Link>
-                    {/* <Nav.Link href='#about-parent'>About</Nav.Link> */}
-                {/* <Nav.Link style={{color:"whitesmoke"}} to='/home' className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}>Dilasa Thapa</Nav.Link> */}
-                    {/* <Nav.Link style={{color:"whitesmoke"}} to='/home' className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Dilasa Thapa</Nav.Link> */}
-                {/* </Navbar.Brand> */}
+                   
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className='navbar-toggler-icon'></span>
 
@@ -60,11 +52,6 @@ export const NavBar = () => {
                         <Nav.Link href='#about-parent' className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about-parent')}>About</Nav.Link>
                         <Nav.Link href='#skills' className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
                         <Nav.Link href='#project-parent' className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project-parent')}>Projects</Nav.Link>
-                        {/* <Nav.Link href='#Resume'  className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLk('project-parent')}>resume</Nav.Link> */}
-
-                        {/* <a href='https://drive.google.com/file/d/1nloSv0G47c7bgRwZwYxrxlvgr4TfJHtZ/view?usp=sharing' target='_blank' id="resume-link-1"> */}
-                         {/* <button id='resume' onClick={onResumeClick} type="button" >Resume</button> */}
-                         {/* </a> */}
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
