@@ -4,6 +4,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { FaWhatsapp } from 'react-icons/fa';
 import {Link} from "react-router-dom"
 // import resume from '../images/Resume/Amit Sisodiya Resume.pdf';
 export const NavBar = () => {
@@ -70,11 +71,11 @@ export const NavBar = () => {
                             <a href="https://github.com/amitsisodiya371" > <p><FaGithub className='img'/></p></a>
                             <a href="https://linkedin.com/in/amit-sisodiya-a9b488205/" > <p><FaLinkedinIn className='img' /></p> </a>
                             <a href="https://twitter.com/amitSis99328470" > <p><FaTwitter className='img' /></p></a>
-                             
+                            <a href="https://wa.me/919368155634"  ><p><FaWhatsapp className="img" /></p></a>
                         </div>
                         <button className='vvd'
                             onClick={() => console.log('connect')}>
-                            <span><Nav.Link href='#form-parent' id='connect'>Let's Connect</Nav.Link></span>
+                            <Nav.Link id="cont" href='#form-parent' >Let's Connect</Nav.Link>
                         </button>
                         <button id='resume' onClick={onResumeClick} type="button" >Resume</button>
                     </span>

@@ -57,7 +57,7 @@ export const Skills = () => {
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <FaNodeJs style={{fontSize:"100px", color:"green"}}/>
+                                <FaNodeJs id="node" style={{fontSize:"100px", color:"green"}}/>
                                 <h5 style={{paddingTop:"12px"}}>Node</h5>
                             </div>
                             <div className="item">

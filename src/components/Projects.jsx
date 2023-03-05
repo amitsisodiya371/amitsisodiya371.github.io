@@ -19,6 +19,7 @@ const Projects = () => {
         <div id="display">
           <div id="play" >
             <img src={pro1} alt="p1"  id="video-links"/>
+            <h5 style={{textAlign:"center",marginLeft:"20%"}}>Spotify clone</h5>
             <div id="link">
             <p> <a href="https://github.com/ritikraj07/Project_Spotify.com"><FaGithub className="icon" /></a></p>
               <p className="icon">|</p>
@@ -30,6 +31,7 @@ const Projects = () => {
 
           <div id="play" >
              <img src={pro2} alt="p1"  id="video-links2"/>
+             <h5 style={{textAlign:"center",marginRight:"15%"}}>Royal Brothers clone</h5>
             <div id="link2">
             <p> <a href="https://github.com/Arshadiqubal17/royalBrothersclone"><FaGithub className="icon" /></a></p>
               <p className="icon">|</p>
@@ -39,16 +41,18 @@ const Projects = () => {
           </div>
           <div id="play" >
             <img src={pro3} alt="p1"  id="video-links3"/>
+            <h5 style={{textAlign:"center",marginLeft:"20%"}}>bluemercury clone</h5>
             <div id="link3">
             <p> <a href="https://github.com/suryathink/bluemercuryClone"><FaGithub className="icon" /></a></p>
               <p className="icon">|</p>
               <p> <a href="https://suryathink.github.io/bluemercuryClone/"> <FaExternalLinkAlt className="icon" /></a></p>
-
+              
             </div>
           </div>
 
           <div id="play" >
             <img src={pro4} alt="p1"  id="video-links2"/>
+            <h5 style={{textAlign:"center",marginRight:"15%"}}>Food App clone</h5>
             <div id="link2">
               <p> <a href="https://github.com/amitsisodiya371/Food-app-clone"><FaGithub className="icon" /></a></p>
               <p className="icon">|</p>
