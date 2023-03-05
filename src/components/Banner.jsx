@@ -53,7 +53,17 @@ export const Banner = () => {
       setIndex((prevIndex) => prevIndex + 1);
     }
   };
-
+  const onResumeClick = () => {
+    fetch("Amit Sisodiya Resume.pdf").then((response) => {
+      response.blob().then((blob) => {
+        const fileURL = window.URL.createObjectURL(blob);
+        let alink = document.createElement("a");
+        alink.href = fileURL;
+        alink.download = "Amit Sisodiya Resume.pdf";
+        alink.click();
+      });
+    });
+  };
   return (
     <section className="banner" id="home">
       <Container>
@@ -87,9 +97,9 @@ export const Banner = () => {
                     explore my portfolio, and I look forward to connecting with
                     you.
                   </p>
-                  <a href='https://drive.google.com/file/d/1nloSv0G47c7bgRwZwYxrxlvgr4TfJHtZ/view?usp=sharing' target='_blank' id="resume-link-1">
-                    <button id='resume2' type="button" >Download Resume</button>
-                  </a>
+                  {/* <a href='https://drive.google.com/file/d/1nloSv0G47c7bgRwZwYxrxlvgr4TfJHtZ/view?usp=sharing' target='_blank' id="resume-link-1"> */}
+                    <button id='resume2'onClick={onResumeClick} type="button" >Download Resume</button>
+                  {/* </a> */}
                   <button>
                     Lets's connect{" "}
                     <Nav.Link href="#form-parent">

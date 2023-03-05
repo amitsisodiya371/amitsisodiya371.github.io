@@ -8,9 +8,9 @@ const About = () => {
                         I am a passionate learner and aspiring full-stack web developer,
                         currently studying at Masai School, where I am honing my technical skills
                         and gaining practical experience through project-based learning.
-                        Prior to this, I completed my Bachelor's degree in Science from
+                        Prior to this, I completed my Bachelor's degree in ECE from
                         AKTU University. I completed my 12th grade education
-                        from Him Sarswati inter college, where I developed a passion for technology and problem-solving.
+                        from  Sarswati inter college, where I developed a passion for technology and problem-solving.
                         I am eager to apply all my skills to real-world projects as a
                         full-stack web developer.
                         Outside of web development, I have a diverse range of interests and hobbies

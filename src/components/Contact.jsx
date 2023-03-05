@@ -13,15 +13,16 @@ export const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_3i7uz1a",
-        "template_xx2i5hn",
+        "service_st2psyw",
+        "template_7ywrs8p",
         form.current,
-        "3XfI1TIY1R9WCNooo"
+        "ujZS18zYrc8uFm8ZO"
       )
       .then(
         (result) => {
           console.log(result.text);
           console.log("message sent");
+          alert('Thankyou for connecting to Amit Sisodiya, your message has been send to him.')
         },
         (error) => {
           console.log(error.text);
@@ -40,13 +41,20 @@ export const Contact = () => {
         </div>
         <div id="child">
           <form ref={form} onSubmit={sendEmail} id="form">
+
             <p>Name</p>
             <input type="text" name="user_name" />
+
+            <p>Enter Number</p>
+            <input type="text" name="user_number" />
+
             <p>Enter Email</p>
             <input type="email" name="user_email" />
+
             <p>Message</p>
             <textarea name="message" /> <br />
             <input type="submit" id="button" value="Send" />
+
           </form>
         </div>
       </div>

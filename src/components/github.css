@@ -1,0 +1,40 @@
+#github-streak-stats{
+    background-color:black ;
+}
+.graph-1{
+    color: aqua;
+    width: 100%;
+}
+.graph-1 img{
+    width: 84%;
+    height: 20%;
+    box-shadow: 0 0 10px red;
+    border-radius:20px ;
+}
+.graph-1 img:hover{
+    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
+    border: 2px solid orangered;
+}
+#graph23{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+#github-streak-stats{
+    cursor:pointer;
+    box-shadow: 0 0 10px red;
+}
+#github-stats-card {
+    cursor: pointer;
+    box-shadow: 0 0 10px red;
+}
+#github-stats-card:hover{
+    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}
+#github-streak-stats:hover{
+    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+}

@@ -5,7 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import {Link} from "react-router-dom"
-import resume from '../images/Resume/Amit Sisodiya Resume.pdf';
+// import resume from '../images/Resume/Amit Sisodiya Resume.pdf';
 export const NavBar = () => {
     const [activeLink, setActiveLink] = useState('home');
     const [scrolled, setScrolled] = useState(false);
@@ -27,10 +27,17 @@ export const NavBar = () => {
         setActiveLink(value);
     }
 
-    const onUpdateActiveLk = () =>{
-        setActiveLink({resume});
-        
-    }
+    const onResumeClick = () => {
+        fetch("Amit Sisodiya Resume.pdf").then((response) => {
+          response.blob().then((blob) => {
+            const fileURL = window.URL.createObjectURL(blob);
+            let alink = document.createElement("a");
+            alink.href = fileURL;
+            alink.download = "Amit Sisodiya Resume.pdf";
+            alink.click();
+          });
+        });
+      };
     return (
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
@@ -54,9 +61,9 @@ export const NavBar = () => {
                         <Nav.Link href='#project-parent' className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project-parent')}>Projects</Nav.Link>
                         {/* <Nav.Link href='#Resume'  className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLk('project-parent')}>resume</Nav.Link> */}
 
-                        <a href='https://drive.google.com/file/d/1nloSv0G47c7bgRwZwYxrxlvgr4TfJHtZ/view?usp=sharing' target='_blank' id="resume-link-1">
-                         <button id='resume' type="button" >Resume</button>
-                         </a>
+                        {/* <a href='https://drive.google.com/file/d/1nloSv0G47c7bgRwZwYxrxlvgr4TfJHtZ/view?usp=sharing' target='_blank' id="resume-link-1"> */}
+                         {/* <button id='resume' onClick={onResumeClick} type="button" >Resume</button> */}
+                         {/* </a> */}
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
@@ -67,8 +74,9 @@ export const NavBar = () => {
                         </div>
                         <button className='vvd'
                             onClick={() => console.log('connect')}>
-                            <span><Nav.Link href='#form-parent'>Let's Connect</Nav.Link></span>
+                            <span><Nav.Link href='#form-parent' id='connect'>Let's Connect</Nav.Link></span>
                         </button>
+                        <button id='resume' onClick={onResumeClick} type="button" >Resume</button>
                     </span>
 
                 </Navbar.Collapse>
