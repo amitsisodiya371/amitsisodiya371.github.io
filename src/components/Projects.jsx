@@ -18,12 +18,14 @@ const Projects = () => {
         <div id="display">
           <div id="play">
             <img src={pro1} alt="p1" id="video-links" />
-            <h6
+            <p
               style={{
-                textAlign: "center",
+                textAlign: "justify",
                 marginLeft: "30%",
                 border: "2px solid red",
+                padding:"10px",
                 width: "60%",
+                // fontWeight:"500px"
               }}
             >
               Spotify is a digital music, podcast, and
@@ -32,8 +34,8 @@ const Projects = () => {
               playing music are totally free or choose
               to Spotify Premium.
               <br />
-              The tech stack is used here is Html, Css and Javascript
-            </h6>
+              The tech stack is used here is <span style={{ color:"orangered"}}> Html, Css and Javascript</span>
+            </p>
             <div id="link">
               <p>
                 {" "}
@@ -54,11 +56,12 @@ const Projects = () => {
 
           <div id="play">
             <img src={pro2} alt="p1" id="video-links2" />
-            <h6
+            <p
               style={{
-                textAlign: "center",
+                textAlign: "justify",
                 marginLeft: "10%",
                 border: "2px solid red",
+                padding:"10px",
                 width: "60%",
               }}
             >
@@ -67,9 +70,8 @@ const Projects = () => {
               your ride and enjoy the city tour with your favourite Bikes.
               collections.
               <br />
-              The tech stack is used here is Html, Css, Reactjs, ChakraUI,
-              Nodejs, Mongodb.
-            </h6>
+              The tech stack is used here is <span style={{ color:"orangered"}}> Html, Css, Reactjs, ChakraUI, Nodejs and Mongodb.</span>
+            </p>
             <div id="link2">
               <p>
                 {" "}
@@ -89,10 +91,11 @@ const Projects = () => {
           </div>
           <div id="play">
             <img src={pro3} alt="p1" id="video-links3" />
-            <h6
+            <p
               style={{
-                textAlign: "center",
+                textAlign: "justify",
                 marginLeft: "30%",
+                padding:"10px",
                 border: "2px solid red",
                 width: "60%",
               }}
@@ -100,8 +103,8 @@ const Projects = () => {
               BlueMercury is one of world's finest e-commerce website 
               dealing in a various types of cosmetics, skin-care products and select
               other services. <br />
-              The tech stack is used here is Html, Css and Javascript
-            </h6>
+              The tech stack is used here is <span style={{ color:"orangered"}}> Html, Css and Javascript</span>
+            </p>
             <div id="link3">
               <p>
                 {" "}
@@ -122,10 +125,11 @@ const Projects = () => {
 
           <div id="play">
             <img src={pro4} alt="p1" id="video-links2" />
-            <h6
+            <p
               style={{
-                textAlign: "center",
+                textAlign: "justify",
                 marginLeft: "10%",
+                padding:"10px",
                 border: "2px solid red",
                 width: "60%",
               }}
@@ -134,8 +138,8 @@ const Projects = () => {
               get delivered their ordered foods in their city,
               home, office they are.
               <br />
-              The tech stack is used here is Html, Css and Javascript
-            </h6>
+              The tech stack is used here is <span style={{ color:"orangered"}}> Html, Css and Javascript</span>
+            </p>
             <div id="link2">
               <p>
                 {" "}
