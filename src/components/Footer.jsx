@@ -23,7 +23,7 @@ export const Footer = () => {
                         <a href="https://wa.me/919368155634"  id="ref"><FaWhatsapp className="footer-icons" /></a>
                     </div>
                     <br />
-                    <h3>Made By <span><AiFillHeart/> </span> Amit Sisodiya</h3>
+                    <h3>Made By <span style={{color:"red"}}><AiFillHeart/> </span> Amit Sisodiya</h3>
 
                 </div>
             </div>
