@@ -82,7 +82,7 @@ const Projects = () => {
               <p className="icon">|</p>
               <p>
                 {" "}
-                <a href="https://royalbrothers-project.vercel.app/">
+                <a href="https://rb-bike-riders.vercel.app/">
                   {" "}
                   <FaExternalLinkAlt className="icon" />
                 </a>
