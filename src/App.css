@@ -213,18 +213,18 @@ span.navbar-text {
   border-radius: 10px;
   color: #000;
 }
-#cont {
+#contact {
   color: white;
 }
-#cont:hover{
+#contact:hover{
   color: #000;
 }
-#resume{
+#resume-button-1{
   color: #fff;
   font-size: 18px;
   font-weight: 300px;
 }
-#resume:hover{
+#resume-button-1:hover{
  color: black;
    /* background-color: #fff; */
 }
@@ -290,7 +290,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 /* Banner css start */
-.myimage {
+.home-img {
   height: 380px;
   width: 400px;
   border-radius: 50%;
@@ -302,7 +302,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .banner {
   margin-top: 0;
   padding: 200px 0 100px 0;
-  /* background-image: url('./images/myimage/bg.jpg'); */
+  /* background-image: url('./images/home-img/bg.jpg'); */
   /* background-image: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(20,20,20,1) 35%, red 100%);
    */
   background-image: linear-gradient(rgb(121, 18, 19), rgb(49, 11, 11), rgba(0, 0, 0, 1));
@@ -378,7 +378,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
 }
 
-#resume2{
+#resume-button-2{
   font-size: 30px;
   
   border: 2px solid orangered;
@@ -386,7 +386,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 5px;
   /* color: #121212; */
 }
-#resume2:hover{
+#resume-button-2:hover{
   background-color: orangered;
  }
 
@@ -439,7 +439,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   position: relative;
 }
 
-.skill-slider .item img {
+.skill-slider .skills-card img {
   width: 50%;
   margin: 0 auto 15px auto;
 }
@@ -454,13 +454,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 #node:hover{
   box-shadow: orangered 0px 50px 100px -20px, orangered 0px 30px 60px -30px, orangered 0px -2px 6px 0px inset;
 }
-.item img:hover{
+.skills-card img:hover{
   box-shadow: orangered 0px 50px 100px -20px, orangered 0px 30px 60px -30px, orangered 0px -2px 6px 0px inset;
 }
 
 /* About  */
 
-#achild-parent {
+#user-detail-intro {
   margin: 2% 15%;
   width: 70%;
   border: 5px solid red;
@@ -474,7 +474,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#about-parent {
+#about {
   text-align: center;
   padding: 20px;
   font-size: 45px;

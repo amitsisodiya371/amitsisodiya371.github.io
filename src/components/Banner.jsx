@@ -78,7 +78,7 @@ export const Banner = () => {
                 >
                   <span>Welcome to my Portfolio</span>
                   <h1>
-                    Hi! I'm <i style={{ color: "orangered" }}>Amit Sisodiya</i>{" "}
+                    Hi! I'm <i style={{ color: "orangered" }} id="user-detail-name">Amit Sisodiya</i>{" "}
                     <span
                       className="txt-rotate"
                       dataperiod="1000"
@@ -98,7 +98,7 @@ export const Banner = () => {
                     you.
                   </p>
                   {/* <a href='https://drive.google.com/file/d/1nloSv0G47c7bgRwZwYxrxlvgr4TfJHtZ/view?usp=sharing' target='_blank' id="resume-link-1"> */}
-                    <button id='resume2'onClick={onResumeClick} type="button" >Download Resume</button>
+                    <button id='resume-button-2'onClick={onResumeClick} type="button" >Download Resume</button>
                   {/* </a> */}
                   <button>
                     Lets's connect{" "}
@@ -115,7 +115,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "" : ""}>
-                  <img className="myimage" src={Sisodiyaji} alt="Header Img" />
+                  <img className="home-img" src={Sisodiyaji} alt="Header Img" />
                 </div>
               )}
             </TrackVisibility>

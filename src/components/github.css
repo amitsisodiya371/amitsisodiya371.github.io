@@ -7,7 +7,7 @@
 }
 .graph-1 img{
     width: 84%;
-    height: 20%;
+    height: 18%;
     box-shadow: 0 0 10px red;
     border-radius:20px ;
 }
@@ -37,4 +37,35 @@
     box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
     border: 2px solid orangered;
     border-radius: 5px;
+}
+#g-lang{
+    display: flex;
+    justify-content: space-around;
+}
+.react-activity-calendar{
+    /* margin:  auto; */
+    margin-top: 30px;
+    margin-bottom:20px ;
+    margin-left: 100px;
+    width: 80%;
+}
+.react-activity-calendar:hover{
+    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
+    border: 1px solid orangered;
+    border-radius: 5px;
+    /* padding: 5px; */
+}
+
+#lang{
+    margin:  auto;
+    margin-top: 30px;
+    margin-right:95px ;
+    margin-bottom:20px ;
+}
+
+#lang:hover{
+    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
+    border: 2px solid orangered;
+    border-radius: 5px;
+   
 }

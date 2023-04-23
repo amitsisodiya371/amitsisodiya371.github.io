@@ -18,19 +18,19 @@ export const Skills = () => {
     superLargeDesktop: {
       // the naming can be any, depends on you.
       breakpoint: { max: 4000, min: 3000 },
-      items: 5
+    items: 5
     },
     desktop: {
       breakpoint: { max: 3000, min: 1024 },
-      items: 5
+    items: 5
     },
     tablet: {
       breakpoint: { max: 1024, min: 464 },
-      items: 2
+    items: 2
     },
     mobile: {
       breakpoint: { max: 464, min: 0 },
-      items: 1
+    items: 1
     }
   };
 
@@ -44,40 +44,40 @@ export const Skills = () => {
                         <p> I specialize in both front-end and back-end development, with a focus on creating dynamic, user-friendly web applications. I have experience working on various projects, including e-commerce websites, social media platforms, and other web applications.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             
-                            <div className="item">
+                            <div className="skills-card">
                                 <img src={htmlicon} alt="Image-name1" style={{height:"100px", width:"100px"}}/>
                                 <h5>HTML</h5>
                             </div>
-                            <div className="item">
+                            <div className="skills-card">
                                 <img src={cssicon} alt="Image-name2" style={{height:"100px", width:"100px"}}/>
                                 <h5>CSS</h5>
                             </div>
-                            <div className="item">
+                            <div className="skills-card">
                                 <img src={jsicon} alt="Image-name3" style={{height:"100px", width:"100px"}}/>
                                 <h5>Javascript</h5>
                             </div>
-                            <div className="item">
+                            <div className="skills-card">
                                 <FaNodeJs id="node" style={{fontSize:"100px", color:"green"}}/>
                                 <h5 style={{paddingTop:"12px"}}>Node</h5>
                             </div>
-                            <div className="item">
+                            <div className="skills-card">
                                 <img src={reacticon} alt="Image-name4" style={{height:"100px", width:"100px"}} />
                                 <h5>React</h5>
                             </div>
-                            <div className="item">
+                            <div className="skills-card">
                                 <img src={reduxicon} alt="Image-name5" style={{height:"100px", width:"100px"}}/>                            
                                 <h5>Redux</h5>
                             </div>
 
-                            <div className="item">
+                            <div className="skills-card">
                                 <img src={expressicon} alt="Image-name6" style={{height:"100px", width:"100px"}}/>
                                 <h5>Express</h5>
                             </div>
-                            <div className="item">
+                            <div className="skills-card">
                                 <img src={mongodbicon} alt="Image-name7" style={{height:"100px", width:"100px"}}/>                            
                                 <h5>MongoDB</h5>
                             </div>
-                            <div className="item">
+                            <div className="skills-card">
                                 <img src={javaicon} alt="Image-name8" style={{height:"100px", width:"100px"}}/>                            
                                 <h5>JAVA</h5>
                             </div>

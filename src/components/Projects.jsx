@@ -10,13 +10,13 @@ import pro4 from "../images/Project img/food proj.png";
 const Projects = () => {
   return (
     <>
-      <div id="project-parent">
+      <div id="project-parent" className="project-card">
         <div id="projects">
           <br /> <br />
           <h1>Projects</h1>
         </div>
         <div id="display">
-          <div id="play">
+          <div id="play" className="project-card">
             <img src={pro1} alt="p1" id="video-links" />
             <p
               style={{
@@ -54,7 +54,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div id="play">
+          <div id="play" className="project-card">
             <img src={pro2} alt="p1" id="video-links2" />
             <p
               style={{
@@ -89,7 +89,8 @@ const Projects = () => {
               </p>
             </div>
           </div>
-          <div id="play">
+
+          <div id="play" className="project-card">
             <img src={pro3} alt="p1" id="video-links3" />
             <p
               style={{
@@ -123,7 +124,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div id="play">
+          <div id="play" className="project-card">
             <img src={pro4} alt="p1" id="video-links2" />
             <p
               style={{

@@ -45,10 +45,10 @@ export const Contact = () => {
             <p>Name</p>
             <input type="text" name="user_name" />
 
-            <p>Enter Number</p>
+            <p id="contact-phone">Enter Number</p>
             <input type="text" name="user_number" />
 
-            <p>Enter Email</p>
+            <p  id="contact-email">Enter Email</p>
             <input type="email" name="user_email" />
 
             <p>Message</p>
