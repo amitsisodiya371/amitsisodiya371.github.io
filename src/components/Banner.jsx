@@ -98,7 +98,7 @@ export const Banner = () => {
                     you.
                   </p>
                   {/* <a href='https://drive.google.com/file/d/1nloSv0G47c7bgRwZwYxrxlvgr4TfJHtZ/view?usp=sharing' target='_blank' id="resume-link-1"> */}
-                    <button id='resume-button-2'onClick={onResumeClick} type="button" >Download Resume</button>
+                    <button id="resume-button-2"onClick={onResumeClick} type="button" >Download Resume</button>
                   {/* </a> */}
                   <button>
                     Lets's connect{" "}

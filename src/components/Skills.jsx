@@ -45,41 +45,41 @@ export const Skills = () => {
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             
                             <div className="skills-card">
-                                <img src={htmlicon} alt="Image-name1" style={{height:"100px", width:"100px"}}/>
-                                <h5>HTML</h5>
+                                <img className="skills-card-img" src={htmlicon} alt="Image-name1" style={{height:"100px", width:"100px"}}/>
+                                <h5 className="skills-card-name">HTML</h5>
                             </div>
                             <div className="skills-card">
-                                <img src={cssicon} alt="Image-name2" style={{height:"100px", width:"100px"}}/>
-                                <h5>CSS</h5>
+                                <img className="skills-card-img" src={cssicon} alt="Image-name2" style={{height:"100px", width:"100px"}}/>
+                                <h5 className="skills-card-name">CSS</h5>
                             </div>
                             <div className="skills-card">
-                                <img src={jsicon} alt="Image-name3" style={{height:"100px", width:"100px"}}/>
-                                <h5>Javascript</h5>
+                                <img className="skills-card-img" src={jsicon} alt="Image-name3" style={{height:"100px", width:"100px"}}/>
+                                <h5 className="skills-card-name">Javascript</h5>
                             </div>
                             <div className="skills-card">
-                                <FaNodeJs id="node" style={{fontSize:"100px", color:"green"}}/>
-                                <h5 style={{paddingTop:"12px"}}>Node</h5>
+                                <FaNodeJs id="node" className="skills-card-img" style={{fontSize:"100px", color:"green"}}/>
+                                <h5 style={{paddingTop:"12px"}} className="skills-card-name">Node</h5>
                             </div>
                             <div className="skills-card">
-                                <img src={reacticon} alt="Image-name4" style={{height:"100px", width:"100px"}} />
-                                <h5>React</h5>
+                                <img className="skills-card-img" src={reacticon} alt="Image-name4" style={{height:"100px", width:"100px"}} />
+                                <h5 className="skills-card-name">React</h5>
                             </div>
                             <div className="skills-card">
-                                <img src={reduxicon} alt="Image-name5" style={{height:"100px", width:"100px"}}/>                            
-                                <h5>Redux</h5>
+                                <img className="skills-card-img" src={reduxicon} alt="Image-name5" style={{height:"100px", width:"100px"}}/>                            
+                                <h5 className="skills-card-name">Redux</h5>
                             </div>
 
                             <div className="skills-card">
-                                <img src={expressicon} alt="Image-name6" style={{height:"100px", width:"100px"}}/>
-                                <h5>Express</h5>
+                                <img className="skills-card-img" src={expressicon} alt="Image-name6" style={{height:"100px", width:"100px"}}/>
+                                <h5  className="skills-card-name">Express</h5>
                             </div>
                             <div className="skills-card">
-                                <img src={mongodbicon} alt="Image-name7" style={{height:"100px", width:"100px"}}/>                            
-                                <h5>MongoDB</h5>
+                                <img className="skills-card-img" src={mongodbicon} alt="Image-name7" style={{height:"100px", width:"100px"}}/>                            
+                                <h5 className="skills-card-name">MongoDB</h5>
                             </div>
                             <div className="skills-card">
-                                <img src={javaicon} alt="Image-name8" style={{height:"100px", width:"100px"}}/>                            
-                                <h5>JAVA</h5>
+                                <img className="skills-card-img" src={javaicon} alt="Image-name8" style={{height:"100px", width:"100px"}}/>                            
+                                <h5 className="skills-card-name">JAVA</h5>
                             </div>
                            
                         </Carousel>

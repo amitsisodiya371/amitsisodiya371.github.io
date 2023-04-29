@@ -2,9 +2,9 @@ const About = () => {
     return (
         <>
             <div id="about" className="about section">
-                <h1>About Me</h1>
-                <div id="user-detail-intro">
-                    <p>
+                <h1 >About Me</h1>
+                <div >
+                    <p id="user-detail-intro">
                         I am a passionate learner and aspiring full-stack web developer,
                         currently studying at Masai School, where I am honing my technical skills
                         and gaining practical experience through project-based learning.

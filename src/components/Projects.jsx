@@ -18,7 +18,7 @@ const Projects = () => {
         <div id="display">
           <div id="play" className="project-card">
             <img src={pro1} alt="p1" id="video-links" />
-            <p
+            <p className="project-title"
               style={{
                 textAlign: "justify",
                 marginLeft: "30%",
@@ -27,26 +27,26 @@ const Projects = () => {
                 width: "60%",
                 // fontWeight:"500px"
               }}
-            >
+            > <span className="project-description">
               Spotify is a digital music, podcast, and
               video service that gives you access to millions of songs and other
               content from creators all over the world. Basic functions such as
               playing music are totally free or choose
-              to Spotify Premium.
+              to Spotify Premium.</span>
               <br />
-              The tech stack is used here is <span style={{ color:"orangered"}}> Html, Css and Javascript</span>
+              The tech stack is used here is <span className="project-tech-stack" style={{ color:"orangered"}}> Html, Css and Javascript</span>
             </p>
             <div id="link">
               <p>
                 {" "}
-                <a href="https://github.com/ritikraj07/Project_Spotify.com">
+                <a className="project-github-link" href="https://github.com/ritikraj07/Project_Spotify.com">
                   <FaGithub className="icon" />
                 </a>
               </p>
               <p className="icon">|</p>
               <p>
                 {" "}
-                <a href="https://starlit-salmiakki-6e2eb0.netlify.app/html/">
+                <a className="project-deployed-link" href="https://starlit-salmiakki-6e2eb0.netlify.app/html/">
                   {" "}
                   <FaExternalLinkAlt className="icon" />
                 </a>
@@ -56,7 +56,7 @@ const Projects = () => {
 
           <div id="play" className="project-card">
             <img src={pro2} alt="p1" id="video-links2" />
-            <p
+            <p  className="project-title"
               style={{
                 textAlign: "justify",
                 marginLeft: "10%",
@@ -64,25 +64,25 @@ const Projects = () => {
                 padding:"10px",
                 width: "60%",
               }}
-            >
+            > <span className="project-description">
               RoyalBrothers is a bike rental website where you can select your
               city Then pickup point and dropping point and then you can book and choose
               your ride and enjoy the city tour with your favourite Bikes.
-              collections.
+              collections.</span>
               <br />
-              The tech stack is used here is <span style={{ color:"orangered"}}> Html, Css, Reactjs, ChakraUI, Nodejs and Mongodb.</span>
+              The tech stack is used here is <span className="project-tech-stack"  style={{ color:"orangered"}}> Html, Css, Reactjs, ChakraUI, Nodejs and Mongodb.</span>
             </p>
             <div id="link2">
               <p>
                 {" "}
-                <a href="https://github.com/Arshadiqubal17/royalBrothersclone">
+                <a className="project-github-link" href="https://github.com/Arshadiqubal17/royalBrothersclone">
                   <FaGithub className="icon" />
                 </a>
               </p>
               <p className="icon">|</p>
               <p>
                 {" "}
-                <a href="https://rb-bike-riders.vercel.app/">
+                <a className="project-deployed-link" href="https://rb-bike-riders.vercel.app/">
                   {" "}
                   <FaExternalLinkAlt className="icon" />
                 </a>
@@ -92,7 +92,7 @@ const Projects = () => {
 
           <div id="play" className="project-card">
             <img src={pro3} alt="p1" id="video-links3" />
-            <p
+            <p className="project-title"
               style={{
                 textAlign: "justify",
                 marginLeft: "30%",
@@ -100,23 +100,23 @@ const Projects = () => {
                 border: "2px solid red",
                 width: "60%",
               }}
-            >
+            ><span className="project-description">
               BlueMercury is one of world's finest e-commerce website 
               dealing in a various types of cosmetics, skin-care products and select
-              other services. <br />
-              The tech stack is used here is <span style={{ color:"orangered"}}> Html, Css and Javascript</span>
+              other services.</span> <br />
+              The tech stack is used here is <span className="project-tech-stack"  style={{ color:"orangered"}}> Html, Css and Javascript</span>
             </p>
             <div id="link3">
               <p>
                 {" "}
-                <a href="https://github.com/suryathink/bluemercuryClone">
+                <a className="project-github-link" href="https://github.com/suryathink/bluemercuryClone">
                   <FaGithub className="icon" />
                 </a>
               </p>
               <p className="icon">|</p>
               <p>
                 {" "}
-                <a href="https://suryathink.github.io/bluemercuryClone/">
+                <a className="project-deployed-link" href="https://suryathink.github.io/bluemercuryClone/">
                   {" "}
                   <FaExternalLinkAlt className="icon" />
                 </a>
@@ -126,7 +126,7 @@ const Projects = () => {
 
           <div id="play" className="project-card">
             <img src={pro4} alt="p1" id="video-links2" />
-            <p
+            <p className="project-title"
               style={{
                 textAlign: "justify",
                 marginLeft: "10%",
@@ -134,24 +134,24 @@ const Projects = () => {
                 border: "2px solid red",
                 width: "60%",
               }}
-            >
+            ><span className="project-description">
               As an on-demand food delivery application allows your customers to
               get delivered their ordered foods in their city,
-              home, office they are.
+              home, office they are.</span>
               <br />
-              The tech stack is used here is <span style={{ color:"orangered"}}> Html, Css and Javascript</span>
+              The tech stack is used here is <span className="project-tech-stack"  style={{ color:"orangered"}}> Html, Css and Javascript</span>
             </p>
             <div id="link2">
               <p>
                 {" "}
-                <a href="https://github.com/amitsisodiya371/Food-app-clone">
+                <a className="project-github-link" href="https://github.com/amitsisodiya371/Food-app-clone">
                   <FaGithub className="icon" />
                 </a>
               </p>
               <p className="icon">|</p>
               <p>
                 {" "}
-                <a href="https://willowy-zabaione-710cfc.netlify.app/">
+                <a className="project-deployed-link" href="https://willowy-zabaione-710cfc.netlify.app/">
                   {" "}
                   <FaExternalLinkAlt className="icon" />
                 </a>

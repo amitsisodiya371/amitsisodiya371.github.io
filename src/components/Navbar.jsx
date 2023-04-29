@@ -40,7 +40,7 @@ export const NavBar = () => {
         <div id='nav-menu'>
         <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
             <Container>
-                    <Nav.Link id="home" href='#home'>Amit Sisodiya</Nav.Link>
+                    <Nav.Link className="nav-link home"  href='#home'>Amit Sisodiya</Nav.Link>
                    
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
                     <span className='navbar-toggler-icon'></span>
@@ -50,22 +50,22 @@ export const NavBar = () => {
                     <Nav className='me-auto'>
                     
                         {/* <Nav.Link href='#' className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link> */}
-                        <Nav.Link id='nav-link about' href='#about-parent' className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about-parent')}>About</Nav.Link>
-                        <Nav.Link id="skills" href='#skills' className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
-                        <Nav.Link id="projects" href='#project-parent' className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project-parent')}>Projects</Nav.Link>
+                        <Nav.Link   href='#about' className={activeLink === 'about' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('about-parent')}>About</Nav.Link>
+                        <Nav.Link  href='#skills' className={activeLink === 'skills' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('skills')}>Skills</Nav.Link>
+                        <Nav.Link   href='#project-parent' className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('project-parent')}>Projects</Nav.Link>
                     </Nav>
                     <span className='navbar-text'>
                         <div className='social-icon'>
                             <a id="contact-github" href="https://github.com/amitsisodiya371" > <p><FaGithub className='img'/></p></a>
-                            <a  id="contact-linkedin" href="https://linkedin.com/in/amit-sisodiya-a9b488205/" > <p><FaLinkedinIn className='img' /></p> </a>
+                            <a  id="contact-linkedin" href="https://www.linkedin.com/in/amit-sisodiya-a9b488205/" > <p><FaLinkedinIn className='img' /></p> </a>
                             <a href="https://twitter.com/amitSis99328470" > <p><FaTwitter className='img' /></p></a>
                             <a href="https://wa.me/919368155634"  ><p><FaWhatsapp className="img" /></p></a>
                         </div>
                         <button className='vvd'
                             onClick={() => console.log('connect')}>
-                            <Nav.Link id="contact" href='#form-parent' >Let's Connect</Nav.Link>
+                            <Nav.Link className="nav-link contact" id="contact" href='#form-parent' >Let's Connect</Nav.Link>
                         </button>
-                        <button id='resume-button-1' onClick={onResumeClick} type="button" >Resume</button>
+                        <button className="nav-link resume" id='resume-button-1' onClick={onResumeClick} type="button" >Resume</button>
                     </span>
                 </Navbar.Collapse>
 
