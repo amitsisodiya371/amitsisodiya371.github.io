@@ -4,7 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import pro1 from "../images/Project img/spotify proj.png";
 import pro2 from "../images/Project img/Rb proj.png";
 import pro3 from "../images/Project img/blumercary proj.png";
-import pro4 from "../images/Project img/food proj.png";
+import pro4 from "../images/Project img/quiz app.png";
 // import pro3 from "./../images/videos/gif3.gif"
 
 const Projects = () => {
@@ -135,23 +135,22 @@ const Projects = () => {
                 width: "60%",
               }}
             ><span className="project-description">
-              As an on-demand food delivery application allows your customers to
-              get delivered their ordered foods in their city,
-              home, office they are.</span>
+              The project: 'Quiz App' is a collection of number of different types of quizzes like technical, games, sports, etc.
+               A user can access/play the entire quiz and can attempt any of the one.</span>
               <br />
-              The tech stack is used here is <span className="project-tech-stack"  style={{ color:"orangered"}}> Html, Css and Javascript</span>
+              The tech stack is used here is <span className="project-tech-stack"  style={{ color:"orangered"}}> Html, Css, Reactjs, ChakraUI, Nodejs and Mongodb.</span>
             </p>
             <div id="link2">
               <p>
                 {" "}
-                <a className="project-github-link" href="https://github.com/amitsisodiya371/Food-app-clone">
+                <a className="project-github-link" href="https://github.com/amitsisodiya371/Quiz_app">
                   <FaGithub className="icon" />
                 </a>
               </p>
               <p className="icon">|</p>
               <p>
                 {" "}
-                <a className="project-deployed-link" href="https://willowy-zabaione-710cfc.netlify.app/">
+                <a className="project-deployed-link" href="https://quiz-app-roan-five.vercel.app">
                   {" "}
                   <FaExternalLinkAlt className="icon" />
                 </a>
