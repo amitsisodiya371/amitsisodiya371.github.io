@@ -58,8 +58,8 @@ export const NavBar = () => {
                         <div className='social-icon'>
                             <a id="contact-github" href="https://github.com/amitsisodiya371" > <p><FaGithub className='img'/></p></a>
                             <a  id="contact-linkedin" href="https://www.linkedin.com/in/amit-sisodiya-a9b488205/" > <p><FaLinkedinIn className='img' /></p> </a>
-                            <a href="https://twitter.com/amitSis99328470" > <p><FaTwitter className='img' /></p></a>
-                            <a href="https://wa.me/919368155634"  ><p><FaWhatsapp className="img" /></p></a>
+                            <a id="contact-twitter" href="https://twitter.com/amitSis99328470" > <p><FaTwitter className='img' /></p></a>
+                            <a id="contact-whatsapp" href="https://wa.me/919368155634"  ><p><FaWhatsapp className="img" /></p></a>
                         </div>
                         <button className='vvd'
                             onClick={() => console.log('connect')}>

@@ -22,7 +22,7 @@ const Projects = () => {
               style={{
                 textAlign: "justify",
                 marginLeft: "30%",
-                border: "2px solid red",
+                border: "2px solid green",
                 padding:"10px",
                 width: "60%",
                 // fontWeight:"500px"
@@ -60,7 +60,7 @@ const Projects = () => {
               style={{
                 textAlign: "justify",
                 marginLeft: "10%",
-                border: "2px solid red",
+                border: "2px solid green",
                 padding:"10px",
                 width: "60%",
               }}
@@ -97,7 +97,7 @@ const Projects = () => {
                 textAlign: "justify",
                 marginLeft: "30%",
                 padding:"10px",
-                border: "2px solid red",
+                border: "2px solid green",
                 width: "60%",
               }}
             ><span className="project-description">
@@ -131,7 +131,7 @@ const Projects = () => {
                 textAlign: "justify",
                 marginLeft: "10%",
                 padding:"10px",
-                border: "2px solid red",
+                border: "2px solid green",
                 width: "60%",
               }}
             ><span className="project-description">

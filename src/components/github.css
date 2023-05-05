@@ -8,12 +8,12 @@
 .graph-1 img{
     width: 84%;
     height: 18%;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px green;
     border-radius:20px ;
 }
 .graph-1 img:hover{
-    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
-    border: 2px solid orangered;
+    box-shadow: rgb(5, 108, 68) 0px 22px 70px 4px;
+    border: 2px solid green;
 }
 #graph23{
     display: flex;
@@ -22,20 +22,20 @@
 }
 #github-streak-stats{
     cursor:pointer;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px green;
 }
 #github-stats-card {
     cursor: pointer;
-    box-shadow: 0 0 10px red;
+    box-shadow: 0 0 10px green;
 }
 #github-stats-card:hover{
-    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
-    border: 2px solid orangered;
+    box-shadow: rgb(5, 108, 68) 0px 22px 70px 4px;
+    border: 2px solid green;
     border-radius: 5px;
 }
 #github-streak-stats:hover{
-    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
-    border: 2px solid orangered;
+    box-shadow: rgb(5, 108, 68) 0px 22px 70px 4px;
+    border: 2px solid green;
     border-radius: 5px;
 }
 #g-lang{
@@ -50,8 +50,8 @@
     width: 80%;
 }
 .react-activity-calendar:hover{
-    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
-    border: 1px solid orangered;
+    box-shadow: rgb(5, 108, 68) 0px 22px 70px 4px;
+    border: 1px solid green;
     border-radius: 5px;
     /* padding: 5px; */
 }
@@ -64,8 +64,8 @@
 }
 
 #lang:hover{
-    box-shadow: rgb(121, 18, 18) 0px 22px 70px 4px;
-    border: 2px solid orangered;
+    box-shadow: rgb(5, 108, 68) 0px 22px 70px 4px;
+    border: 2px solid green;
     border-radius: 5px;
    
 }

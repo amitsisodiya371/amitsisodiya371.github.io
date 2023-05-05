@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from "react-bootstrap-icons";
 import TrackVisibility from "react-on-screen";
 import { Nav } from "react-bootstrap";
-import Sisodiyaji from "./../images/my profilepic/profile pic rotate.jpg";
+import Sisodiyaji from "./../images/my profilepic/profile p_green.jpg";
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);

@@ -1,4 +1,7 @@
-@font-face {
+
+<!-- CSS in red color -->
+
+<!-- @font-face {
   font-family: Centra;
   src: url('./images/font/CentraNo2-Bold.ttf');
   font-weight: 700;
@@ -699,7 +702,7 @@ input:active {
 #form textarea:focus,
 textarea:active {
   border-color: transparent;
-  border-bottom: 4px solid green;
+  border-bottom: 4px solid red;
 }
 
 #button {
@@ -746,11 +749,11 @@ textarea:active {
 }
 
 #contact-linkedin:hover{
-  background-color: rgb(9, 175, 241);
+  background-color: rgb(7, 78, 178);
   color: white;
 }
 #contact-github:hover{
-  background-color: rgb(13, 237, 177);
+  background-color: white;
   color: white;
 }
 #contact-whatsapp:hover{
@@ -758,6 +761,6 @@ textarea:active {
   color: white;
 }
 #contact-twitter:hover{
-  background-color: rgb(6, 216, 248);
+  background-color: rgb(8, 111, 185);
   color: white;
-}
+} -->
