@@ -17,10 +17,10 @@ export const Footer = () => {
             <div id="footer-parent">
                 <div id="footer">
                     <div id="icons">
-                        <a href="https://github.com/amitsisodiya371" id="ref"><FaGithub className="footer-icons" /></a>
-                        <a href="https://linkedin.com/in/amit-sisodiya-a9b488205" id="ref"><FaLinkedinIn className="footer-icons" /> </a>
-                        <a href="https://twitter.com/amitSis99328470" id="ref"><FaTwitter className="footer-icons" /></a>
-                        <a href="https://wa.me/919368155634"  id="ref"><FaWhatsapp className="footer-icons" /></a>
+                        <a href="https://github.com/amitsisodiya371" id="ref"><FaGithub className="footer-icons" style={{backgroundColor:"green", borderRadius:"21px"}} /></a>
+                        <a href="https://linkedin.com/in/amit-sisodiya-a9b488205" id="ref"><FaLinkedinIn className="footer-icons" style={{color:"blue"}}/> </a>
+                        <a href="https://twitter.com/amitSis99328470" id="ref"><FaTwitter className="footer-icons" style={{color:"blue"}}/></a>
+                        <a href="https://wa.me/919368155634"  id="ref"><FaWhatsapp className="footer-icons" style={{color:"green"}}/></a>
                     </div>
                     <br />
                     <h3>Made By <span style={{color:"red"}}><AiFillHeart/> </span> Amit Sisodiya</h3>

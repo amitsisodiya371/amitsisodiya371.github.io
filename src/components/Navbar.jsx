@@ -43,7 +43,7 @@ export const NavBar = () => {
                     <Nav.Link className="nav-link home"  href='#home'>Amit Sisodiya</Nav.Link>
                    
                 <Navbar.Toggle aria-controls="basic-navbar-nav">
-                    <span className='navbar-toggler-icon'></span>
+                    <span className='navbar-toggler-icon' ></span>
 
                 </Navbar.Toggle>
                 <Navbar.Collapse id='basic-navbar-nav'>
