@@ -2,14 +2,7 @@ import "./github.css";
 import GitHubCalendar from "react-github-calendar";
 export function Github() {
   return (
-    <div
-      style={{
-        backgroundColor: "black",
-        marginBottom: "-20px",
-        textAlign: "center",
-        boxShadow: " rgb(121, 18, 18) 0px 22px 70px 4px;",
-      }}
-    >
+    <div id="git">
       <br />
       <br />
       <h1>Github Status</h1>
@@ -39,7 +32,7 @@ export function Github() {
         </a>
       </div>
       <div id="g-lang">
-        <div> <a href="https://github.com/amitsisodiya371">
+        <div> <a  href="https://github.com/amitsisodiya371">
           <GitHubCalendar
             username="amitsisodiya371"
             className="react-activity-calendar"

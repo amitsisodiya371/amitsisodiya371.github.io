@@ -1,6 +1,13 @@
 #github-streak-stats{
     background-color:black ;
 }
+#git{
+    display: block;
+    background-color: black;
+    margin-bottom: -20px;
+    text-align: center;
+    box-shadow:  rgb(121, 18, 18) 0px 22px 70px 4px;
+}
 .graph-1{
     color: aqua;
     width: 100%;
@@ -18,6 +25,7 @@
 #graph23{
     display: flex;
     justify-content: space-evenly;
+    /* flex-wrap: wrap; */
     width: 100%;
 }
 #github-streak-stats{
@@ -68,4 +76,42 @@
     border: 2px solid green;
     border-radius: 5px;
    
+}
+
+
+@media screen and (max-width: 1000px){ 
+    #graph23{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        margin: auto;
+        width: 85%;
+        height: 50%;
+    }
+    #github-streak-stats{
+        width: 100%;
+        height: 100%;
+    /* border-radius: 20px; */
+    border: 1px solid green;
+    }
+    #github-stats-card{
+        width: 100%;
+        height: 100%;
+    /* border-radius: 20px; */
+    border: 1px solid green
+    }
+
+    #g-lang{
+        display: flex;
+        flex-wrap: wrap;
+         margin: auto;
+         margin-left:-50px ;
+         margin-right: 40px;
+         justify-content: space-around;
+    }
+    #lang{
+        margin-left:50% ;
+        margin-top: -2px;
+        border: 1px solid green
+    }
 }
