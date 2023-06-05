@@ -286,7 +286,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   height: 380px;
   width: 400px;
   border-radius: 50%;
-  margin-left: 15%;
+  /* margin-left: 15%; */
   /* position: fixed; */
 
 }
@@ -472,8 +472,6 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 45px;
   font-weight: 700;
   color: #fff;
-  /* margin-block-start: 1em; */
-  /* margin-block-end: 1em; */
   background-color: rgb(1, 11, 3);
 }
 
@@ -762,12 +760,14 @@ input:active {
     margin-left: -30px;
   }
 
-  /* #c-parent {
-    /* margin: 0% 15% 5% 10%; */
-    /* border-radius: 80px; 
+  #c-parent {
+    margin: 0% 15% 5% 2%;
+     border-radius: 80px;  
     align-items: center;
+    padding: 0px;
+    width: 95%;
   }
-  #form input{
-    width: 100%;
+  /* #form input{
+    width: 150%;
   } */
 }
