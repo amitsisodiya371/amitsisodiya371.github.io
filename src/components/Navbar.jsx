@@ -26,12 +26,12 @@ export const NavBar = () => {
     }
 
     const onResumeClick = () => {
-        fetch("Amit Sisodiya Resume.pdf").then((response) => {
+        fetch("Amit Sisodiya_Resume.pdf").then((response) => {
           response.blob().then((blob) => {
             const fileURL = window.URL.createObjectURL(blob);
             let alink = document.createElement("a");
             alink.href = fileURL;
-            alink.download = "Amit Sisodiya Resume.pdf";
+            alink.download = "Amit Sisodiya_Resume.pdf";
             alink.click();
           });
         });

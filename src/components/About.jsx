@@ -15,8 +15,7 @@ const About = () => {
                         full-stack web developer.
                         Outside of web development, I have a diverse range of interests and hobbies
                         that keep me engaged and inspired. As a sports enthusiast,
-                        I am an avid table tennis player and have participated and won in
-                        several competitions at the district and state level. In my free time,
+                        I like playing cricket in spare time and love doing pencil sketching that is biggest stress buster,
                         I also enjoy photography. Reading is another passion of mine, When I'm not reading,
                         you can often find me singing, or learning new things,
                         as I enjoy challenging myself and exploring new opportunities
